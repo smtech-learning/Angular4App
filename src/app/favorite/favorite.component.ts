@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'favorite',
@@ -11,10 +11,11 @@ export class FavoriteComponent implements OnInit {
 
   ngOnInit() {
   }
-  favorite:boolean=true;
+ @Input('isThisFavorite') isFavorite:boolean=true;
 
   onClick(){
-    this.favorite= !this.favorite;
+ 
+    this.isFavorite= !this.isFavorite;
     console.log("Onclick is here");
   }
 
