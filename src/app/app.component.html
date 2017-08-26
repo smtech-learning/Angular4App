@@ -43,7 +43,7 @@
     <textarea ngModel name="comments" required  cols="30" rows="10" id ="comments" #comments="ngModel" 
     (change) = "log(comments)" type="textarea" class="form-control">  </textarea>
       
-    <button class="btn" [class.btn-danger]="!tvarform.valid" [class.btn-primary]="tvarform.valid" [disabled]="!tvarform.valid"> Submit</button>
+    <button class="btn" [class.btn-secondary]="!tvarform.valid" [class.btn-primary]="tvarform.valid" [disabled]="!tvarform.valid"> Submit</button>
   </div>
   
   <div class="card" style="width:20rem">
