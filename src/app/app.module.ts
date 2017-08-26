@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { CustomDirectiveDirective } from './custom-directive.directive';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    CustomDirectiveDirective
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
