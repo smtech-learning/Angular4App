@@ -11,8 +11,12 @@ export class RegistrationComponent implements OnInit {
 
   ngOnInit() {
   }
-  logChange(fName){
+
+  log(fName){
   console.log(fName.value);
 
+  }
+  submit(form:any){
+  console.log(form.value.firstName);
   }
 }

@@ -12,4 +12,11 @@ export class SupplierComponent implements OnInit {
   ngOnInit() {
   }
 
-}
+  consolelog(firstName){
+    console.log(firstName);
+  }
+
+  submit(f){
+    console.log(f);
+  }
+} 
