@@ -9,6 +9,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { BrandComponent } from './brand/brand.component';
+import { SupplierComponent } from './supplier/supplier.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BrandComponent } from './brand/brand.component';
     CustomDirectiveDirective,
     RegistrationComponent,
     DashboardComponent,
-    BrandComponent
+    BrandComponent,
+    SupplierComponent
   ],
   imports: [
     BrowserModule,
