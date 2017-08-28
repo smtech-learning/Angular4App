@@ -1,4 +1,4 @@
 #firstName.ng-invalid.ng-touched{
-    border:solid;
-    color:red;
+    border:solid 1px;
+    color:red; 
 }
